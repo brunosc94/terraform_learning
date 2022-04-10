@@ -36,7 +36,3 @@ variable "int_port" {
     error_message = "The internal port must be in the valid port range 0 - 65535."
   }
 }
-
-# locals {
-#   container_count = length(var.ext_port[terraform.workspace])
-# }
